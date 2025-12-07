@@ -1,55 +1,53 @@
-# Prerequisites
-*.d
+# Arduino / PlatformIO build folders
+build/
+.pio/
 
-# Object files
+# Arduino IDE files
+*.ino.*
+*.hex
+*.elf
+
+# C/C++ generic ignores (from your template)
+*.d
 *.o
 *.ko
 *.obj
-*.elf
-
-# Linker output
 *.ilk
 *.map
 *.exp
-
-# Precompiled Headers
 *.gch
 *.pch
-
-# Libraries
 *.lib
 *.a
 *.la
 *.lo
-
-# Shared objects (inc. Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
-
-# Executables
 *.exe
 *.out
 *.app
 *.i*86
 *.x86_64
-*.hex
-
-# Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
-
-# Kernel Module Compile Results
 *.mod*
 *.cmd
-.tmp_versions/
+*.tmp_versions/
 modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-
-# debug information files
 *.dwo
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets / credentials
+arduino_secrets.h
+credentials.h
