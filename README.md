@@ -1,4 +1,4 @@
-# Automatic_vacuum_cleaner_Project
+# Automatic_vacuum_cleaner
 Final year project : Automatic Vacuum Cleaner using Arduino Uno and sensors.
 
 An autonomous vacuum cleaning robot built using **Arduino UNO**, **ultrasonic sensors**, **IR floor detection**, and an **L298N motor driver**.  
